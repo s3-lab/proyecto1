@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700&display=swap');
 
+
 .header {
   display: grid;
   grid-template: 100% / 20% 60% 20%;
@@ -24,7 +25,23 @@
   grid-template: 1fr 1fr 1fr / 20% 60% 20%;
   font-family: 'monserrat', sans-serif;
 }
+.ola {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  color: red;
+}
 
-.tittle {
+.contenedor {
+  font-family: 'monserrat', sans-serif;
+  font-weight: bold;
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.hero-text {
   text-align: center;
+  margin: 0;
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
