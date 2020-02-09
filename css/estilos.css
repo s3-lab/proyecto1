@@ -25,6 +25,14 @@
   grid-template: 1fr 1fr 1fr / 20% 60% 20%;
   font-family: 'monserrat', sans-serif;
 }
+.logo {
+  padding-left: 10px;
+  margin: 0;
+}
+.logoimage {
+  width: 40px;
+  height: 40px;
+}
 
 .contenedor {
   border: 1px black solid;
