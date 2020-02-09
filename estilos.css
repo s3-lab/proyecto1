@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700&display=swap');
+
+.header {
+  display: grid;
+  grid-template: 100% / 20% 60% 20%;
+  background: #706fd3;
+  width: 100vw;
+  height: 50px;
+  align-items: center;
+}
+
+.tittle {
+  color:  white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+.hero {
+  display: grid;
+  width: 100vw;
+  height: 500px;
+  grid-template: 1fr 1fr 1fr / 20% 60% 20%;
+  font-family: 'monserrat', sans-serif;
+}
+
+.hero-text{
+  color: red;
+  font-family: 'monserrat',sans-serif;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  text-align: center;
+  margin: 0;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
