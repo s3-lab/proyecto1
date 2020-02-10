@@ -10,6 +10,9 @@
   align-items: center;
 }
 
+body {
+  margin: 0;
+}
 .tittle {
   color:  white;
   font-family: 'Montserrat', sans-serif;
