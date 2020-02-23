@@ -10,12 +10,16 @@ body {
   width: 100vw;
   height: 50px;
   align-items: center;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+body {
+  margin: 0;
+}
 .tittle {
   color:  white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   grid-column: 2 / 3;
   text-align: center;
 }
@@ -26,6 +30,14 @@ body {
   height: 500px;
   grid-template: 1fr 1fr 1fr / 20% 60% 20%;
   font-family: 'monserrat', sans-serif;
+}
+.logo {
+  padding-left: 10px;
+  margin: 0;
+}
+.logoimage {
+  width: 30px;
+  height: 30px;
 }
 
 .contenedor {
